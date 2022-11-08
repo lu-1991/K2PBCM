@@ -7072,7 +7072,7 @@ int init_nvram(void)
 		nvram_set_int("btn_rst_gpio", 9|GPIO_ACTIVE_LOW);
 		nvram_set_int("btn_wps_gpio", 7|GPIO_ACTIVE_LOW);
 		nvram_set_int("led_pwr_gpio", 3|GPIO_ACTIVE_LOW);
-		nvram_set_int("led_wps_gpio", 10|GPIO_ACTIVE_LOW);
+		nvram_set_int("led_wps_gpio", 10); //|GPIO_ACTIVE_LOW);
 //		nvram_set_int("led_5g_gpio", 11);	// active high
 		nvram_set_int("led_usb_gpio", 11|GPIO_ACTIVE_LOW);
 
